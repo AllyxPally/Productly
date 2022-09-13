@@ -60,18 +60,29 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
     color: #544837;
 }
 
 .start-btn { 
     position: absolute;
-    width: 366px;
+    width: 175px;
     height: 53px;
     left: 145px;
     top: 489px;
+    border: none;
     background-color: #FF9900;
     color: #FFFFFF;
+
+}
+
+.watch-link {
+    position: absolute;
+    width: 161px;
+    height: 23px;
+    left: 350px;
+    top: 504px;
+    color: #FF9900;
 
 }
 
@@ -83,4 +94,28 @@
     height: 496px;
     top: 128px;
     left: 666px;
+}
+
+.second-title{
+    position: absolute;
+    height: 108px;
+    left: 38.22%;
+    right: 37.4%;
+    top: calc(50%-108/2 - 217.5px);
+    font-family: 'poppins' , sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;;
+    line-height: 54px;
+    text-align: center;
+    color: #2F281E;
+
+}
+
+.pic-2{
+    position: absolute;
+    width: 1095px;
+    height: 204px;
+    left: 567px;
+    top: 162px;
 }
