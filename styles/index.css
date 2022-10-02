@@ -143,6 +143,16 @@ triangle-btn{
     height: 496px;
     top: 128px;
     left: 666px;
+} 
+
+.card {
+    position: relative;
+    justify-content: center;
+    max-width: 1095px;
+    width: 100%;
+    height: 204px;
+    top: 162px;
+    left: 567px;
 }
 
 .second-title{
@@ -203,6 +213,99 @@ triangle-btn{
     max-width: 520px;
     width: 100%;
     height: 574px;
+    top: 1397px;
+    left: 735px;
 
 
+}
+
+.product-img{
+    max-width: 535px;
+    width: 100%;
+    height: 521px;
+    top: 2072px;
+    left:144px;
+
+}
+
+.product-design{
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #544837; 
+}
+
+.product-title {
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #2F281E;
+}
+
+.product-text{
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #544837;
+}
+
+.tiny-product-text{
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color:#2F281E;
+}
+
+.marketers-design {
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #544837;  
+}
+
+.marketers-title{
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #2F281E;
+}
+
+.marketers-text{
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;    
+}
+
+.marketers-img{
+    position: absolute;
+    max-width: 542px;
+    width: 100%;
+    height: 609px;
+    top: 2697px;
+    left: 715px;
+}
+
+.footer{
+    position: absolute;
+    justify-content: center;
+    max-width: 1109px;
+    width: 100%;
+    height: 308px;
+    top: 3420px;
+    left: 147px;
 }
