@@ -1,3 +1,11 @@
+/*.design-container {
+    max-width: 1400px;
+    width: 100%;
+    height: 3843px;
+    top: -2123px;
+    left: 298px;
+}*/
+
 .logo{
     width: 185px;
 }
@@ -147,12 +155,27 @@ triangle-btn{
 
 .card {
     position: relative;
-    justify-content: center;
+    justify-content: space-evenly;
     max-width: 1095px;
     width: 100%;
     height: 204px;
     top: 162px;
     left: 567px;
+}
+
+.sign-up-now-btn {
+    position:absolute;
+    width: 175px;
+    height: 53px;
+    top: 400px;
+    left: 1027px;
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color:#FFFFFF;
+    background-color: #FF9900;
 }
 
 .second-title{
@@ -264,6 +287,13 @@ triangle-btn{
     color:#2F281E;
 }
 
+.icon {
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 310px;
+}
+
 .marketers-design {
     font-family: 'poppins', sans-serif;
     font-style: normal;
@@ -302,7 +332,7 @@ triangle-btn{
 
 .footer{
     position: absolute;
-    justify-content: center;
+    justify-content: flex-start;
     max-width: 1109px;
     width: 100%;
     height: 308px;
