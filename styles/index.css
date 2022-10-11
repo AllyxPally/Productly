@@ -1,18 +1,16 @@
-/*.design-container {
-    max-width: 1400px;
-    width: 100%;
-    height: 3843px;
-    top: -2123px;
-    left: 298px;
-}*/
+.head-container {
+    display: flex;
+    justify-content: space-around;
+}
+
 
 .logo{
     width: 185px;
 }
 nav{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: space-around;
+   
     max-width: 1400px;
     width: 100%;
     height: 78px;
@@ -22,29 +20,17 @@ nav{
 
 }
 
-/*.navbar-text{  <--moved to ul-->
-    display: flex;
-    font-family: 'poppins' , sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 28px;
-    text-align: center;
-    color: #2F281E;
-
-}*/
-
 ul {
-    position: absolute;
+    display: flex;
     max-width: 350px;
     width: 100%;
     height: 28px;
-    top: 24px;
-    left: 650px;
     font-family: 'poppins' , sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
+    gap: 15px;
+    margin: 5px;
     line-height: 28px;
     text-align: center;
     color: #2F281E;
@@ -53,19 +39,14 @@ ul {
 
 li{
     list-style: none;
-    
-   
 }
 
-
-
 .signup-btn{
-    position: absolute;
+    
     max-width: 100px;
     width: 100%;
     height: 46px;
-    left: 1145px;
-    top: 15px;
+  
     font-family: 'poppins' , sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -77,33 +58,21 @@ li{
 }   
 
 .signin-btn{
-    position: absolute;
     max-width: 102px;
     width: 100%;
     height: 46px;
-    top: 15px;
-    left: 1029px;
+  
     background-color: #FFFFFF;
     color: #173A56;
     border-color: #BCD0E5;
     border-radius: 4px;
     
-} 
-/*navbar-btns{
-    display: inline-flex;
-   
-    flex-direction: row-reverse;
-    */
-
+}
 
 .main-title{
     max-width: 518px;
     width: 100%;
     height: 108px;
-    top: 211px;
-    left: 145px;
-    margin-left: 145px;
-    margin-top: 211px;
     font-family: 'poppins' , sans-serif;
     font-weight: 700;
     font-size: 44px;
@@ -111,13 +80,10 @@ li{
 
 }
 
-   .main-info{
-   
+.main-info{
     max-width: 458px;
     width: 100%;
     height: 95px;
-    margin-left: 145px;
-    margin-top: 349px;
     font-family: 'poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -127,12 +93,9 @@ li{
 }
 
 .start-btn { 
-    position: absolute;
     max-width: 175px;
     width: 100%;
     height: 53px;
-    left: 145px;
-    top: 489px;
     border-radius: 10px;
     border: none;
     background-color: #FF9900;
@@ -141,81 +104,67 @@ li{
 }
 
 .vid-btn {
-    position: absolute;
     max-width: 161px;
     width: 100%;
     height: 23px;
-    left: 350px;
-    top: 504px;
     color: #FF9900;
     background-color: #FFFFFF;
     border: none;
 
 }
 triangle-btn{
-   position: absolute;
    max-width: 20px;
    width: 100%;
    height: 17px;
-   top: 6.52%;
-   bottom: 19.57%;
-   left: 10.87%;
-   right: 76.71%;
    color: #FF9900;
    border-radius: 1.125px;
    transform: rotate(90deg);
 
 }
 
-
-
 .header-img{
-    position: absolute;
     max-width: 605px;
     width: 100%;
     height: 496px;
-    top: 128px;
-    left: 666px;
+   
 } 
 
+.feature-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 2211px;
+    width: 100%;
+    height: 543px;
+}
+
 .card {
-    position: absolute;
-    justify-content: center;
     max-width: 1095px;
     width: 100%;
     height: 204px;
-    top: 162px;
-    left: 567px;
+    
 }
 
 .sign-up-now-btn {
-    position:absolute;
     max-width: 175px;
     width: 100%;
     height: 53px;
-    top: 73.66%;
-    bottom: 16.57%;
-    right: 45.64%;
-    left: 46.45%;
+    align-self: center;
     font-family: 'poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
+    text-transform: uppercase;
     color:#FFFFFF;
     background-color: #FF9900;
     border-radius: 4px;
 }
 
 .second-title{
-    display: inline-flex;
-    align-items: center;
     max-width: 539px;
     width:  100%;
     height: 108px;
-    left: 38.22%;
-    right: 37.4%;
-    top: calc(50%-108/2 - 217.5px);
     font-family: 'poppins' , sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -224,6 +173,14 @@ triangle-btn{
     text-align: center;
     color: #2F281E;
 
+}
+
+.design-container {
+    display: flex;
+    max-width: 1100px;
+    width: 100%;
+    height: 574px;
+   
 }
 .design-effort{
     max-width: 186px;
@@ -242,7 +199,6 @@ triangle-btn{
     max-width: 385px;
     width: 100%;
     height: 54px;
-    top: 27px;
     font-family: 'poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -255,7 +211,6 @@ triangle-btn{
     max-width: 486px;
     width: 100%;
     height: 78px;
-    top: 103px;
     font-family: 'poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -277,23 +232,17 @@ triangle-btn{
 }
 
 .design-img{
-    position: absolute;
+    
     max-width: 520px;
     width: 100%;
     height: 574px;
-    top: 1397px;
-    left: 735px;
-
-
+    margin-top: 10px;
 }
 
 .product-img{
     max-width: 535px;
     width: 100%;
     height: 521px;
-    top: 2072px;
-    left:144px;
-
 }
 
 .product-design{
@@ -312,7 +261,6 @@ triangle-btn{
     max-width: 342px;
     width: 100%;
     height: 54px;
-    top: 27px;
     font-family: 'poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -325,7 +273,6 @@ triangle-btn{
     max-width: 486px;
     width: 100%;
     height: 78px;
-    top: 103px;
     font-family: 'poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -338,7 +285,6 @@ triangle-btn{
     max-width: 430px;
     width: 100%;
     height: 52px;
-    top: 211px;
     font-family: 'poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -351,8 +297,6 @@ triangle-btn{
     max-width: 35px;
     width: 100%;
     height: 35px;
-    left: 0px;
-    top: 310px;
 }
 
 .marketers-design {
@@ -371,7 +315,6 @@ triangle-btn{
     max-width: 190px;
     width: 100%;
     height: 54px;
-    top: 27px;
     font-family: 'poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -384,7 +327,6 @@ triangle-btn{
     max-width: 486px;
     width: 100%;
     height: 52px;
-    top: 38px;
     font-family: 'poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -394,20 +336,116 @@ triangle-btn{
 }
 
 .marketers-img{
-    position: absolute;
     max-width: 542px;
     width: 100%;
     height: 609px;
-    top: 2697px;
-    left: 715px;
+    
 }
 
 .footer-logo{
-    display: flex;
-    justify-content: space-between;
+    
     max-width: 185px;
     width: 100%;
     height: 32px;
-    left: 172px;
-    top: 3603px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1109px;
+    width: 100%;
+    height: 308px;
+}
+
+.footer-txt {
+   
+    font-family: 'poppins', sans-serif;
+    font-size: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color:#544837
+}
+
+.links {
+    max-width: 123px;
+    width: 100%;
+    height: 30px;
+    font-family: 'montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2F281E;
+}
+
+.legal {
+    max-width: 114px;
+    width: 100%;
+    height: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2F281E;
+}
+
+.form-txt {
+    max-width: 280px;
+    width: 100%;
+    height: 57px;
+    font-family: 'montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2F281E;
+}
+
+.input {
+    max-width: 325px;
+    width: 100%;
+    height: 48px;
+
+}
+
+::placeholder {
+    max-width: 325px;
+    width: 100%;
+    height: 48px;
+    font-family: 'lato' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height:  28px;
+    background-color: #FFFFFF;
+    color: #BCD0E5;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+}
+
+.footer-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 131px;
+    width: 100%;
+    height: 39px;
+    border-radius: 4px;
+ 
+}
+
+.footer-btn-txt {
+    max-width: 101px;
+    width: 100%;
+    height: 24px;
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #FF9900;
+    border-radius: 4px;
 }
