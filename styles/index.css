@@ -5,29 +5,43 @@
 }
 
 
-.logo{
+.logo {
     width: 185px;
 }
-nav{
+nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     max-width: 1400px;
     width: 100%;
     height: 78px;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
-
 } 
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 20px;
+}
+
+.nav-btns {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    max-width: 230px;
+    width: 100%;
+    margin: 20px;
+}
+
 a {
-  
     text-decoration: none;
     color: black;
     
 }
 
 .header-txt {
-    
     max-width:  350px;
     width:  100%;
     min-height: 28px;
@@ -39,14 +53,11 @@ a {
     color: #2F281E;
 }
 
-li{
+li {
     list-style: none;
-   
-    
 }
 
-.signup-btn{
-    
+.signup-btn {
     max-width: 110px;
     width: 100%;
     height: 46px;
@@ -58,25 +69,30 @@ li{
     background-color: #FF9900;
     color: #FFFFFF;
     border-radius: 4px;
+    border: none;
 }   
 
-.signin-btn{
-    
+.signin-btn {
     max-width: 102px;
     width: 100%;
     height: 46px;
+    font-family: 'poppins' , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
     background-color: #FFFFFF;
     color: #173A56;
-    border-color: #BCD0E5;
+    border: 1px solid #BCD0E5;
     border-radius: 4px;
-    
 }
 
-hr {
-    opacity: 1.09;
+.nav-line {
+    width: 100%;
+    opacity: 0.33;
 }
 
-.main-title{
+.main-title {
     max-width: 518px;
     width: 100%;
     height: 108px;
@@ -84,10 +100,9 @@ hr {
     font-weight: 700;
     font-size: 44px;
     line-height: 54px;
-
 }
 
-.main-info{
+.main-info {
     max-width: 458px;
     width: 100%;
     height: 95px;
@@ -103,8 +118,6 @@ hr {
     max-width: 175px;
     width: 100%;
     height: 53px;
-    border-radius: 10px;
-    border: none;
     font-family: 'poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -112,10 +125,9 @@ hr {
     line-height: 24px;
     background-color: #FF9900;
     color: #FFFFFF;
-
+    border-radius: 4px;
+    border: none;
 }
-
-
 
 .vid-btn {
     max-width: 161px;
@@ -132,7 +144,12 @@ hr {
     border: none;
 
 }
-.triangle-btn{
+
+.fa-play {
+    margin-right: 7px;
+}
+
+.triangle-btn {
    max-width: 20px;
    width: 100%;
    height: 17px;
@@ -143,11 +160,11 @@ hr {
 
 }
 
-.header-img{
+.header-img {
     display: flex;
     max-width: 605px;
     width: 100%;
-    height: 496px;
+    min-height: 496px;
    
 } 
 
@@ -157,54 +174,56 @@ hr {
     align-items: center;
     max-width: 2211px;
     width: 100%;
-    height: 543px;
+    min-height: 543px;
+}
+
+.feature-title {
+    max-width: 539px;
+    width:  100%;
+    height: 108px;
+    font-family: 'poppins' , sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;;
+    line-height: 54px;
+    text-align: center;
+    color: #2F281E;
 }
 
 .feature-card {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
-    
+    width: 100%;
+    margin: 20px;
 }
 
 .card-icon1 {
-    /*display: flex;
-    flex-direction: column;
-    align-items: flex-start;*/
     max-width: 51px;
     width: 100%;
     min-height: 50px;
-    
 }
 
 .card-icon2 {
-    /*display: flex;
-    flex-direction: column;
-    align-items: flex-start;*/
     max-width: 50px;
     width: 100%;
     min-height: 50px;
 }
 
 .card-icon3 {
-    /*display: flex;
-    flex-direction: column;
-    align-items: flex-start;*/
     max-width: 50px;
     width: 100%;
     min-height: 50px;
 }
 
 .card-icon4 {
-    /*display: flex;
-    flex-direction: column;
-    align-items: flex-start;*/
     max-width: 50px;
     width: 100%;
     min-height: 50px;
 }
 
-.card-heading {
+.card-heading1 {
     max-width: 164px;
     width: 100%;
     min-height: 33px;
@@ -216,7 +235,7 @@ hr {
     color: #2F281E;
 }
 
-.card-txt {
+.card-txt1 {
     max-width: 240px;
     width: 100%;
     min-height: 52px;
@@ -226,40 +245,94 @@ hr {
     font-size: 16px;
     line-height: 26px;
     color: #544837;
+}
 
+.card-heading2 {
+    max-width: 170px;
+    width: 100%;
+    min-height: 33px;
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #2F281E;
+}
+
+.card-txt2 {
+    max-width: 240px;
+    width: 100%;
+    min-height: 52px;
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+
+.card-heading3 {
+    max-width: 181px;
+    width: 100%;
+    min-height: 33px;
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #2F281E;
+}
+
+.card-txt3 {
+    max-width: 240px;
+    width: 100%;
+    min-height: 52px;
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+
+.card-heading4 {
+    max-width: 192px;
+    width: 100%;
+    min-height: 33px;
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #2F281E;
+}
+
+.card-txt4 {
+    max-width: 240px;
+    width: 100%;
+    min-height: 78px;
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
 }
 
 .sign-up-now-btn {
-  
-    justify-content: center;
-    align-items: center;
     max-width: 175px;
     width: 100%;
-    height: 53px;
-    
+    min-height: 53px;
     font-family: 'poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     text-transform: uppercase;
-    color:#FFFFFF;
+    color: #FFFFFF;
     background-color: #FF9900;
     border-radius: 4px;
-}
-
-.second-title{
-    max-width: 539px;
-    width:  100%;
-    height: 108px;
-    font-family: 'poppins' , sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;;
-    line-height: 54px;
-    text-align: center;
-    color: #2F281E;
-
+    border: none;
 }
 
 .design-container {
@@ -267,11 +340,10 @@ hr {
     justify-content: space-between;
     max-width: 1100px;
     width: 100%;
-    margin-bottom: 100px;
-  
-   
+    margin-top: 90px;
 }
-.design-effort{
+
+.design-effort {
     max-width: 186px;
     width: 100%;
     height: 24px;
@@ -281,10 +353,9 @@ hr {
     font-size: 16px;
     line-height: 24px;
     color: #544837;
-
 }
 
-.design-title{
+.design-title {
     max-width: 385px;
     width: 100%;
     height: 54px;
@@ -296,7 +367,7 @@ hr {
     color: #2F281E;
 }
 
-.design-text{
+.design-text {
     max-width: 486px;
     width: 100%;
     height: 78px;
@@ -308,7 +379,7 @@ hr {
     color: #544837;
 }
 
-.tiny-design-title{
+.tiny-design-title {
     max-width: 211px;
     width: 100%;
     height: 26px;
@@ -320,8 +391,7 @@ hr {
     color:#2F281E
 }
 
-.design-img{
-    
+.design-img {
     max-width: 520px;
     width: 100%;
     height: 574px;
@@ -334,16 +404,16 @@ hr {
     max-width: 1121px;
     width: 100%;
     min-height: 521px;
-    
+    margin-bottom: 70px;
 }
 
-.product-img{
+.product-img {
     max-width: 535px;
     width: 100%;
     height: 521px;
 }
 
-.product-design{
+.product-design {
     max-width: 212px;
     width: 100%;
     height: 24px;
@@ -367,7 +437,7 @@ hr {
     color: #2F281E;
 }
 
-.product-text{
+.product-text {
     max-width: 486px;
     width: 100%;
     height: 78px;
@@ -379,10 +449,15 @@ hr {
     color: #544837;
 }
 
-.tiny-product-text{
-    max-width: 430px;
+.checkbox {
+    display: inline-block;
+    margin-left: 10px;
+}   
+
+.tiny-product-text1 {
+    max-width: 365px;
     width: 100%;
-    height: 52px;
+    min-height: 52px;
     font-family: 'poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -391,20 +466,38 @@ hr {
     color:#2F281E;
 }
 
-checkbox-icon {
-    max-width: 35px;
+.tiny-product-text2 {
+    max-width: 450px;
     width: 100%;
-    height: 35px;
+    min-height: 52px;
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color:#2F281E;
 }
 
-.marketers-container{
+.tiny-product-text3 {
+    max-width: 450px;
+    width: 100%;
+    min-height: 52px;
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color:#2F281E;
+}
+
+.marketers-container {
     display: flex;
     justify-content: space-between;
     max-width: 1110px;
     width: 100%;
     min-height: 609px;
+    margin-bottom: 90px;
 }
-
 
 .marketers-design {
     max-width: 131px;
@@ -417,8 +510,7 @@ checkbox-icon {
     line-height: 24px;
     color: #544837;  
 }
-
-.marketers-title{
+.marketers-title {
     max-width: 190px;
     width: 100%;
     height: 54px;
@@ -430,10 +522,10 @@ checkbox-icon {
     color: #2F281E;
 }
 
-.marketers-text{
+.marketers-text1 {
     max-width: 486px;
     width: 100%;
-    height: 52px;
+    height: 78px;
     font-family: 'poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -442,14 +534,27 @@ checkbox-icon {
     color: #544837;    
 }
 
-.marketers-img{
+.marketers-text2 {
+    max-width: 486px;
+    width: 100%;
+    min-height: 52px;
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;    
+}
+
+.marketers-img {
     display: flex;
     max-width: 542px;
     width: 100%;
     height: 609px;
     
 }
-hr {
+.footer-line {
+    width: 90%;
     opacity: 0.33;
 }
 
@@ -459,16 +564,27 @@ footer {
     max-width: 1109px;
     width: 100%;
     min-height: 308px;
+    margin-top: 80px;
+    margin-bottom: 10px;
 }
 
-.footer-logo{
-    
+.footer-logo {
     max-width: 185px;
-    /*width: 100%;
-    height: 32px;*/
-    
 }
 
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    max-width: 400px;
+    width: 100%;
+}
+
+.footer-ul li {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: -20px;
+}
 
 .footer-txt {
     display: flex;
@@ -484,20 +600,17 @@ footer {
 }
 
 .links {
-    
     max-width: 123px;
     width: 100%;
     height: 30px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-   
     font-family: 'montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
-    text-align: center;
     color: #2F281E;
 }
 
@@ -513,8 +626,14 @@ footer {
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
-    text-align: center;
     color: #2F281E;
+}
+
+.form {
+    max-width: 325px;
+    width: 100%;
+    min-height: 199px;
+    
 }
 
 .form-txt { /*knowing you're always on the best energy deal*/
@@ -529,18 +648,10 @@ footer {
     color: #2F281E;
 }
 
-.input {
-   
+input {
     max-width: 325px;
     width: 100%;
     min-height: 48px;
-  
-}
-
-::placeholder { /*need to fix the size*/
-    max-width: 183px;
-    width: 100%;
-    height: 28px;
     font-family: 'lato' , sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -550,25 +661,16 @@ footer {
     color: #BCD0E5;
     border: 1px solid #BCD0E5;
     border-radius: 4px;
+    
 }
 
 .footer-btn {
-    display: flex;
+    display: flex; 
     flex-direction: column;
     justify-content: space-around;
     max-width: 131px;
     width: 100%;
     min-height: 39px;
-    border-radius: 4px;
- 
-}
-
-.footer-btn-txt {
- 
-    
-    max-width: 101px;
-    width: 100%;
-    height: 24px;
     font-family: 'poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -577,5 +679,6 @@ footer {
     text-align: center;
     color: #FFFFFF;
     background-color: #FF9900;
-    border-radius: 4px;
+    border-radius: 10px;
+    border-style: none;
 }
