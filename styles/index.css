@@ -4,10 +4,10 @@
     margin-top: 50px;
 }
 
-
 .logo {
     width: 185px;
 }
+
 nav {
     display: flex;
     justify-content: space-evenly;
@@ -38,7 +38,6 @@ nav ul {
 a {
     text-decoration: none;
     color: black;
-    
 }
 
 .header-txt {
@@ -142,7 +141,6 @@ li {
     text-decoration: underline;
     background-color: #FFFFFF;
     border: none;
-
 }
 
 .fa-play {
@@ -157,7 +155,6 @@ li {
    color: #FF9900;
    border-radius: 1.125px;
    transform: rotate(90deg);
-
 }
 
 .header-img {
@@ -165,7 +162,6 @@ li {
     max-width: 605px;
     width: 100%;
     min-height: 496px;
-   
 } 
 
 .feature-container {
@@ -333,6 +329,12 @@ li {
     background-color: #FF9900;
     border-radius: 4px;
     border: none;
+} 
+
+.feature-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .design-container {
@@ -388,7 +390,7 @@ li {
     font-weight: 700;
     font-size: 16px;
     line-height: 26px;
-    color:#2F281E
+    color:#2F281E;
 }
 
 .design-img {
@@ -510,6 +512,7 @@ li {
     line-height: 24px;
     color: #544837;  
 }
+
 .marketers-title {
     max-width: 190px;
     width: 100%;
@@ -551,10 +554,10 @@ li {
     max-width: 542px;
     width: 100%;
     height: 609px;
-    
 }
+
 .footer-line {
-    width: 90%;
+    width: 82%;
     opacity: 0.33;
 }
 
@@ -633,10 +636,9 @@ footer {
     max-width: 325px;
     width: 100%;
     min-height: 199px;
-    
 }
 
-.form-txt { /*knowing you're always on the best energy deal*/
+.form-txt { 
     max-width: 280px;
     width: 100%;
     height: 57px;
@@ -661,7 +663,7 @@ input {
     color: #BCD0E5;
     border: 1px solid #BCD0E5;
     border-radius: 4px;
-    
+    margin-bottom: 20px;
 }
 
 .footer-btn {
