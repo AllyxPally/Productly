@@ -52,6 +52,10 @@ a {
     color: #2F281E;
 }
 
+.header-txt:hover {
+    background-color: #FF9900;
+}
+
 li {
     list-style: none;
 }
@@ -71,6 +75,10 @@ li {
     border: none;
 }   
 
+.signup-btn:hover {
+    background-color: #173A56;
+}
+
 .signin-btn {
     max-width: 102px;
     width: 100%;
@@ -84,6 +92,10 @@ li {
     color: #173A56;
     border: 1px solid #BCD0E5;
     border-radius: 4px;
+}
+
+.signin-btn:hover {
+    background-color: #FF9900;
 }
 
 .nav-line {
@@ -128,6 +140,10 @@ li {
     border: none;
 }
 
+.start-btn:hover {
+    background-color: #173A56;
+}
+
 .vid-btn {
     max-width: 161px;
     width: 100%;
@@ -141,6 +157,10 @@ li {
     text-decoration: underline;
     background-color: #FFFFFF;
     border: none;
+}
+
+.vid-btn:hover {
+    background-color: #173A56;
 }
 
 .fa-play {
@@ -331,6 +351,10 @@ li {
     border-radius: 4px;
     border: none;
 } 
+
+.sign-up-now-btn:hover {
+    background-color: #173A56;
+}
 
 .feature-btn {
     display: flex;
@@ -603,6 +627,10 @@ footer {
     color:#544837;
 }
 
+.footer-txt:hover {
+    background-color: #FF9900;
+}
+
 .links {
     max-width: 123px;
     width: 100%;
@@ -684,4 +712,9 @@ input {
     background-color: #FF9900;
     border-radius: 10px;
     border-style: none;
+    
+}
+
+.footer-btn:hover {
+    background-color: #173A56;
 }
